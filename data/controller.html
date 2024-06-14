@@ -1,0 +1,36 @@
+<script src="/index.js"></script>
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Контроллер рбота</title>
+ </head>
+ <body> 
+   <style>
+     #popUpMessage{
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-self: left;
+            background-color: rgb(215, 125, 7);
+            margin: 100px auto;
+            align-self: flex-end;
+            z-index: 3;
+            padding: 20px;
+            right: 0px;
+        }
+      #canvas_joystick{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          padding: 10px;
+          width: 80%;
+          height: 80%;
+      }
+  </style>
+  <H1 style="text-align: center;">Джойстик</H1>
+  <canvas id="canvas_joystick"></canvas>
+</body>
+</html>
